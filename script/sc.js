@@ -26,7 +26,7 @@ console.log(partyArray);
 
 guest=prompt("¿Quién falta en la lista");
 let findGuests= partyArray.filter((missing)=>{
-    if (missing===guest) return true;
+    if (missing==guest) return true;
     else return false;
 })
 console.log(findGuests);
